@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BENI</string>
+    <string name="title_project">Projeto</string>
+    <string name="title_users">Usuários e Testes</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="txt_name">* Nome: </string>
+    <string name="txt_lastname">Sobrenome: </string>
+    <string name="txt_birthdate">Data de nascimento (dd/mm/yyyy): </string>
+    <string name="txt_age">Idade: </string>
+    <string name="txt_country">Nascionalidade: </string>
+    <string name="txt_gender">Sexo: </string>
+    <string name="txt_gender_male">Masculino</string>
+    <string name="txt_gender_female">Feminino</string>
+    <string name="txt_numbrothers">Nº de irmãos: </string>
+    <string name="txt_weight">Peso: </string>
+    <string name="txt_height">Altura: </string>
+    <string name="txt_obs">Observações: </string>
+    <string name="txt_obrfields">* campos obrigatórios</string>
+
+    <string name="txt_btn_accept">Aceitar</string>
+    <string name="txt_btn_cancel">Cancelar</string>
+
+</resources>

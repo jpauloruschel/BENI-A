@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_name"
+        android:id="@+id/frag_new_user_tvname"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etname"
+        android:layout_below="@+id/frag_new_user_tvname"
+        android:layout_alignLeft="@+id/frag_new_user_tvname"
+        android:layout_alignStart="@+id/frag_new_user_tvname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_birthdate"
+        android:id="@+id/frag_new_user_tvbirthd"
+        android:layout_below="@+id/frag_new_user_etname"
+        android:layout_alignLeft="@+id/frag_new_user_etname"
+        android:layout_alignStart="@+id/frag_new_user_etname"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etbirthd"
+        android:layout_below="@+id/frag_new_user_tvbirthd"
+        android:layout_alignLeft="@+id/frag_new_user_tvbirthd"
+        android:layout_alignStart="@+id/frag_new_user_tvbirthd" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_country"
+        android:id="@+id/frag_new_user_tvcountry"
+        android:layout_below="@+id/frag_new_user_etbirthd"
+        android:layout_alignLeft="@+id/frag_new_user_etbirthd"
+        android:layout_alignStart="@+id/frag_new_user_etbirthd"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etcountry"
+        android:layout_below="@+id/frag_new_user_tvcountry"
+        android:layout_alignLeft="@+id/frag_new_user_tvcountry"
+        android:layout_alignStart="@+id/frag_new_user_tvcountry" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_numbrothers"
+        android:id="@+id/frag_new_user_tvbrothers"
+        android:layout_below="@+id/frag_new_user_etcountry"
+        android:layout_alignLeft="@+id/frag_new_user_etcountry"
+        android:layout_alignStart="@+id/frag_new_user_etcountry"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etbrothers"
+        android:layout_below="@+id/frag_new_user_tvbrothers"
+        android:layout_alignLeft="@+id/frag_new_user_tvbrothers"
+        android:layout_alignStart="@+id/frag_new_user_tvbrothers" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_lastname"
+        android:id="@+id/frag_new_user_tvlastname"
+        android:layout_above="@+id/frag_new_user_etname"
+        android:layout_toRightOf="@+id/frag_new_user_tvbirthd"
+        android:layout_marginLeft="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etlastname"
+        android:layout_below="@+id/frag_new_user_tvlastname"
+        android:layout_alignLeft="@+id/frag_new_user_tvlastname"
+        android:layout_alignStart="@+id/frag_new_user_tvlastname" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_age"
+        android:id="@+id/frag_new_user_tvage"
+        android:layout_alignBaseline="@+id/frag_new_user_tvbirthd"
+        android:layout_alignBottom="@+id/frag_new_user_tvbirthd"
+        android:layout_alignLeft="@+id/frag_new_user_etlastname"
+        android:layout_alignStart="@+id/frag_new_user_etlastname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etage"
+        android:layout_below="@+id/frag_new_user_tvage"
+        android:layout_alignLeft="@+id/frag_new_user_tvage"
+        android:layout_alignStart="@+id/frag_new_user_tvage" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_gender"
+        android:id="@+id/frag_new_user_tvgender"
+        android:layout_above="@+id/frag_new_user_etcountry"
+        android:layout_alignLeft="@+id/frag_new_user_etage"
+        android:layout_alignStart="@+id/frag_new_user_etage" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textOn="@string/txt_gender_male"
+        android:textOff="@string/txt_gender_female"
+        android:id="@+id/switch1"
+        android:layout_alignBottom="@+id/frag_new_user_etcountry"
+        android:layout_alignLeft="@+id/frag_new_user_tvgender"
+        android:layout_alignStart="@+id/frag_new_user_tvgender" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_weight"
+        android:id="@+id/frag_new_user_tvweight"
+        android:layout_above="@+id/frag_new_user_etbrothers"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_alignStart="@+id/switch1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etweight"
+        android:layout_below="@+id/frag_new_user_tvweight"
+        android:layout_alignLeft="@+id/frag_new_user_tvweight"
+        android:layout_alignStart="@+id/frag_new_user_tvweight"
+        android:layout_alignRight="@+id/frag_new_user_tvage"
+        android:layout_alignEnd="@+id/frag_new_user_tvage" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_height"
+        android:id="@+id/frag_new_user_tvheight"
+        android:layout_above="@+id/frag_new_user_etweight"
+        android:layout_alignRight="@+id/frag_new_user_etage"
+        android:layout_alignEnd="@+id/frag_new_user_etage" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/frag_new_user_etheight"
+        android:layout_below="@+id/frag_new_user_tvheight"
+        android:layout_alignLeft="@+id/frag_new_user_tvheight"
+        android:layout_alignStart="@+id/frag_new_user_tvheight"
+        android:layout_alignRight="@+id/frag_new_user_tvheight"
+        android:layout_alignEnd="@+id/frag_new_user_tvheight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_obs"
+        android:id="@+id/textView"
+        android:layout_above="@+id/frag_new_user_etlastname"
+        android:layout_toRightOf="@+id/frag_new_user_etlastname"
+        android:layout_marginLeft="49dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_above="@+id/frag_new_user_tvbirthd"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:inputType="text|textMultiLine"
+        android:singleLine="false"
+        android:maxLines="256" />
+
+</RelativeLayout>
